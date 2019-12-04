@@ -1,0 +1,36 @@
+{
+  "name": "ftpserver",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "prop-types": "15.7.2",
+    "qs": "6.6.0",
+    "rc-form": "2.4.3",
+    "react-native-easy-toast": "1.2.0",
+    "react-native-fs": "2.16.2",
+    "react-native-gesture-handler": "1.0.12",
+    "react-native-network-info": "5.2.1",
+    "react-native-smart-splash-screen": "2.3.5",
+    "react-native-vector-icons": "6.3.0",
+    "react-navigation": "3.0.9",
+    "react-navigation-tabs": "2.0.0-alpha.0",
+    "react": "16.6.3",
+    "react-native": "0.58.0"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.57.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
