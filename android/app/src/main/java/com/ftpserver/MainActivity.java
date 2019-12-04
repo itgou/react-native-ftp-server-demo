@@ -1,6 +1,9 @@
 package com.ftpserver;
 
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
+import com.reactnativecomponent.splashscreen.RCTSplashScreen;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +14,11 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "ftpserver";
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        RCTSplashScreen.openSplashScreen(this);   //open splashscreen
+        super.onCreate(savedInstanceState);
     }
 }

@@ -85,6 +85,7 @@ export default class FTPServer extends React.Component {
                 if (!url) {
                     console.log("no url and start server")
                     resolve(false)
+                    return
                 }
                 DeviceEventEmitter.emit('otherEvent', {
                     type: 'otherEvent',
