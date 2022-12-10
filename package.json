@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "0.21.1",
     "prop-types": "15.7.2",
-    "qs": "6.6.0",
+    "qs": "6.6.1",
     "rc-form": "2.4.3",
     "react-native-easy-toast": "1.2.0",
     "react-native-fs": "2.16.2",
